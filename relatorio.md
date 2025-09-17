@@ -1,5 +1,5 @@
 # Semana 5 de DIW - Relatório de Desempenho.
-> **Nota Final:** **`54.93 / 100`**
+> **Nota Final:** **`64.93 / 100`**
 
 Olá, **DanielLeoPUC**! 👋
 
@@ -112,10 +112,6 @@ Foram detectadas algumas práticas que resultaram em penalidades. Veja os detalh
 > - 📚 **Recurso Sugerido:** [Aprenda sobre seletores de CSS e como estilizar elementos.](https://developer.mozilla.org/pt-BR/docs/Learn/CSS/Building_blocks/Selectors)
 
 
-> ❌ **Falhou** no teste `check_html_direct_children`
-> - **Detalhes:** Cuidado!  A tag <html> deve conter apenas as tags <head> e <body> como filhos diretos.
-
-
 
 #### Tópico: Project structure
 > ❌ **Falhou** no teste `check_dir_exists` (Parâmetros: dir_path: `imgs`)
@@ -141,7 +137,6 @@ Foram detectadas algumas práticas que resultaram em penalidades. Veja os detalh
 | Revisar | `style` | `has_style`<br><sub>style: `text-align`, required_count: 1</sub> |
 | Revisar | `style` | `has_style`<br><sub>style: `position`, required_count: 1</sub> |
 | Corrigir (Penalidade) | `html` | `check_id_selector_over_usage`<br><sub>max_allowed: 2</sub> |
-| Corrigir (Penalidade) | `html` | `check_html_direct_children`<br><sub></sub> |
 | Corrigir (Penalidade) | `project_structure` | `check_dir_exists`<br><sub>dir_path: `imgs`</sub> |
 
 ---
