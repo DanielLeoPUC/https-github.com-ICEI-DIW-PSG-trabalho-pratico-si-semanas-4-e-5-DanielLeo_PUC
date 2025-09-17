@@ -1,0 +1,86 @@
+{
+  "general": {
+    "report_title": "Semana 5 de DIW - Relatório de Desempenho.",
+    "show_score": true,
+    "show_passed_tests": true,
+    "add_report_summary": true,
+    "online_content": [
+      {
+        "url": "https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element",
+        "description": "Guia completo sobre elementos e tags HTML.",
+        "linked_tests": [
+          "has_tag",
+          "has_attribute",
+          "has_structure"
+        ]
+      },
+      {
+        "url": "https://developer.mozilla.org/pt-BR/docs/Learn/CSS/Building_blocks/Selectors",
+        "description": "Aprenda sobre seletores de CSS e como estilizar elementos.",
+        "linked_tests": [
+          "has_style",
+          "check_id_selector_over_usage"
+        ]
+      },
+      {
+        "url": "https://developer.mozilla.org/pt-BR/docs/Web/CSS/Media_Queries/Using_media_queries",
+        "description": "Tutorial sobre como usar Media Queries para criar layouts responsivos.",
+        "linked_tests": [
+          "check_media_queries",
+          "uses_relative_units"
+        ]
+      },
+      {
+        "url": "https://css-tricks.com/a-guide-to-flexbox/",
+        "description": "Um guia visual completo sobre Flexbox.",
+        "linked_tests": [
+          "check_flexbox_usage"
+        ]
+      },
+      {
+        "url": "https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/head",
+        "description": "Documentação sobre a tag <head> e seus elementos internos.",
+        "linked_tests": [
+          "check_head_details",
+          "check_attribute_and_value"
+        ]
+      },
+      {
+        "url": "https://developer.mozilla.org/pt-BR/docs/Learn/Accessibility/HTML",
+        "description": "Fundamentos de acessibilidade em HTML, incluindo o uso do atributo 'alt'.",
+        "linked_tests": [
+          "check_all_images_have_alt"
+        ]
+      },
+      {
+        "url": "https://www.w3schools.com/css/css_link.asp",
+        "description": "Como linkar uma folha de estilos CSS a um documento HTML.",
+        "linked_tests": [
+          "check_css_linked"
+        ]
+      },
+      {
+        "url": "https://developer.mozilla.org/pt-BR/docs/Learn/Common_questions/Web_mechanics/File_paths",
+        "description": "Entenda como funcionam os caminhos de arquivos em projetos web.",
+        "linked_tests": [
+          "check_project_structure",
+          "check_dir_exists"
+        ]
+      },
+      {
+        "url": "https://getbootstrap.com/docs/5.1/getting-started/introduction/",
+        "description": "Documentação do Bootstrap para referência.",
+        "linked_tests": [
+          "check_bootstrap_usage"
+        ]
+      }
+    ]
+  },
+  "default": {
+    "category_headers": {
+      "base": "✅ Requisitos Essenciais",
+      "bonus": "⭐ Pontos Extras e Boas Práticas",
+      "penalty": "🚨 Pontos de Atenção e Más Práticas"
+    }
+  }
+}
