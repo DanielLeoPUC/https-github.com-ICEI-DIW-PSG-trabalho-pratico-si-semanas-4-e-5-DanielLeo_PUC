@@ -1,5 +1,5 @@
 # Semana 5 de DIW - Relatório de Desempenho.
-> **Nota Final:** **`47.67 / 100`**
+> **Nota Final:** **`51.95 / 100`**
 
 Olá, **DanielLeoPUC**! 👋
 
@@ -84,13 +84,6 @@ Encontramos alguns pontos nos requisitos essenciais que precisam de sua atençã
 
 
 #### Tópico: Style
-> ❌ **Falhou** no teste `has_style` (Parâmetros: style: `font-size`, required_count: 1)
-> - **Detalhes:** Atenção: Encontradas0 de 1 `font-size` regras de estilização determinadas.
-
-
-> - 📚 **Recurso Sugerido:** [Aprenda sobre seletores de CSS e como estilizar elementos.](https://developer.mozilla.org/pt-BR/docs/Learn/CSS/Building_blocks/Selectors)
-
-
 > ❌ **Falhou** no teste `has_style` (Parâmetros: style: `font-family`, required_count: 1)
 > - **Detalhes:** Atenção: Encontradas0 de 1 `font-family` regras de estilização determinadas.
 
@@ -105,34 +98,6 @@ Encontramos alguns pontos nos requisitos essenciais que precisam de sua atençã
 > - 📚 **Recurso Sugerido:** [Aprenda sobre seletores de CSS e como estilizar elementos.](https://developer.mozilla.org/pt-BR/docs/Learn/CSS/Building_blocks/Selectors)
 
 
-> ❌ **Falhou** no teste `has_style` (Parâmetros: style: `display`, required_count: 1)
-> - **Detalhes:** Atenção: Encontradas0 de 1 `display` regras de estilização determinadas.
-
-
-> - 📚 **Recurso Sugerido:** [Aprenda sobre seletores de CSS e como estilizar elementos.](https://developer.mozilla.org/pt-BR/docs/Learn/CSS/Building_blocks/Selectors)
-
-
-> ❌ **Falhou** no teste `has_style` (Parâmetros: style: `position`, required_count: 1)
-> - **Detalhes:** Atenção: Encontradas0 de 1 `position` regras de estilização determinadas.
-
-
-> - 📚 **Recurso Sugerido:** [Aprenda sobre seletores de CSS e como estilizar elementos.](https://developer.mozilla.org/pt-BR/docs/Learn/CSS/Building_blocks/Selectors)
-
-
-> ❌ **Falhou** no teste `has_style` (Parâmetros: style: `margin`, required_count: 1)
-> - **Detalhes:** Atenção: Encontradas0 de 1 `margin` regras de estilização determinadas.
-
-
-> - 📚 **Recurso Sugerido:** [Aprenda sobre seletores de CSS e como estilizar elementos.](https://developer.mozilla.org/pt-BR/docs/Learn/CSS/Building_blocks/Selectors)
-
-
-> ❌ **Falhou** no teste `has_style` (Parâmetros: style: `padding`, required_count: 1)
-> - **Detalhes:** Atenção: Encontradas0 de 1 `padding` regras de estilização determinadas.
-
-
-> - 📚 **Recurso Sugerido:** [Aprenda sobre seletores de CSS e como estilizar elementos.](https://developer.mozilla.org/pt-BR/docs/Learn/CSS/Building_blocks/Selectors)
-
-
 
 ---
 
@@ -140,6 +105,13 @@ Encontramos alguns pontos nos requisitos essenciais que precisam de sua atençã
 Foram detectadas algumas práticas que resultaram em penalidades. Veja os detalhes abaixo para entender como corrigi-las:
 
 #### Tópico: Html
+> ❌ **Falhou** no teste `check_id_selector_over_usage` (Parâmetros: max_allowed: 2)
+> - **Detalhes:** Cuidado! 3  seletores de ID detecados (limite: 2).
+
+
+> - 📚 **Recurso Sugerido:** [Aprenda sobre seletores de CSS e como estilizar elementos.](https://developer.mozilla.org/pt-BR/docs/Learn/CSS/Building_blocks/Selectors)
+
+
 > ❌ **Falhou** no teste `check_html_direct_children`
 > - **Detalhes:** Cuidado!  A tag <html> deve conter apenas as tags <head> e <body> como filhos diretos.
 
@@ -166,13 +138,9 @@ Foram detectadas algumas práticas que resultaram em penalidades. Veja os detalh
 | Revisar | `responsivity` | `uses_relative_units`<br><sub></sub> |
 | Revisar | `responsivity` | `check_media_queries`<br><sub></sub> |
 | Revisar | `responsivity` | `check_flexbox_usage`<br><sub></sub> |
-| Revisar | `style` | `has_style`<br><sub>style: `font-size`, required_count: 1</sub> |
 | Revisar | `style` | `has_style`<br><sub>style: `font-family`, required_count: 1</sub> |
 | Revisar | `style` | `has_style`<br><sub>style: `text-align`, required_count: 1</sub> |
-| Revisar | `style` | `has_style`<br><sub>style: `display`, required_count: 1</sub> |
-| Revisar | `style` | `has_style`<br><sub>style: `position`, required_count: 1</sub> |
-| Revisar | `style` | `has_style`<br><sub>style: `margin`, required_count: 1</sub> |
-| Revisar | `style` | `has_style`<br><sub>style: `padding`, required_count: 1</sub> |
+| Corrigir (Penalidade) | `html` | `check_id_selector_over_usage`<br><sub>max_allowed: 2</sub> |
 | Corrigir (Penalidade) | `html` | `check_html_direct_children`<br><sub></sub> |
 | Corrigir (Penalidade) | `project_structure` | `check_dir_exists`<br><sub>dir_path: `imgs`</sub> |
 
