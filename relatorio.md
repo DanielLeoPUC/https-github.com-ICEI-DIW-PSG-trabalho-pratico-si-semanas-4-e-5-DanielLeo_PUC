@@ -106,7 +106,7 @@ Foram detectadas algumas práticas que resultaram em penalidades. Veja os detalh
 
 #### Tópico: Html
 > ❌ **Falhou** no teste `check_id_selector_over_usage` (Parâmetros: max_allowed: 2)
-> - **Detalhes:** Cuidado! 7  seletores de ID detecados (limite: 2).
+> - **Detalhes:** Cuidado! 8  seletores de ID detecados (limite: 2).
 
 
 > - 📚 **Recurso Sugerido:** [Aprenda sobre seletores de CSS e como estilizar elementos.](https://developer.mozilla.org/pt-BR/docs/Learn/CSS/Building_blocks/Selectors)
