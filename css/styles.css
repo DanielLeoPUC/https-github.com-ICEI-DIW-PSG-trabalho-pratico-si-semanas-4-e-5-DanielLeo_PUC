@@ -1,0 +1,110 @@
+body {
+    background-color: rgb(244, 247, 250);
+    margin: 0px;
+    padding: 0px;
+}
+
+header {    
+    background-color: rgb(113, 174, 243);  
+   display: inline-block;  
+   height: 30px; 
+     margin:8px;
+     border: 1px solid #777; 
+     padding: 2px;
+     border-radius: 5px;
+  
+}
+.d1 {
+    width: 03%;
+    background-color: rgb(236, 72, 72);;
+    
+
+}
+.d2 {
+    width: 70%;
+   background-color: rgb(250, 205, 205);;
+   
+}
+.d3 {
+    width: 10%;
+    background-color: rgb(113, 153, 76);;
+  
+}
+
+
+aside {    
+     background-color: rgb(185, 113, 243);
+     padding: 35px;
+     height: 920px;
+     width: 24%;
+     float: right;
+     position: absolute right;
+     margin-right: 8px;
+     border : 1px solid777;
+     border-radius: 25px;
+     box-sizing:border-box;
+    
+ }
+
+
+.Artigoum {
+    background-color: rgb(136, 127, 255);
+}
+.Artigodois {
+    background-color: rgb(250, 116, 228);
+}
+.Artigotres {
+    background-color: rgb(255, 127, 148);
+}
+.Artigoquatro {
+    background-color: rgb(238, 149, 164);
+}
+.Artigocinco {
+    background-color: rgb(230, 123, 74);
+}
+.Artigoseis {
+    background-color: rgb(156, 150, 250);
+}
+
+
+footer {
+      background-color: rgb(238, 87, 87);
+      margin:8px;
+     border: 1px solid #777; 
+     padding: 2px;
+     border-radius: 15px;
+     
+      
+}
+
+nav {
+    font-size: medium;
+}
+nav ul :first-child{
+    color: brown;
+}
+
+nav ul :last-child{
+    color: chocolate;
+}
+
+ li.active{
+    color: rgb(17, 141, 163);
+}
+
+div {
+     display: inline-block;
+     width: calc(24% - 16px);
+     vertical-align: top;
+     margin:8px;
+     border: 1px solid #777; 
+     padding: 2px;
+     border-radius: 25px;
+     box-sizing:border-box;
+    
+
+}
+img {
+  padding: 6px;
+   border-radius: 25px;
+}
