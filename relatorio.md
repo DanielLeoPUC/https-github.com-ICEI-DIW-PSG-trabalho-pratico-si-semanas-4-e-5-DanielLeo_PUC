@@ -1,5 +1,5 @@
 # Semana 5 de DIW - Relatório de Desempenho.
-> **Nota Final:** **`44.26 / 100`**
+> **Nota Final:** **`62.83 / 100`**
 
 Olá, **DanielLeoPUC**! 👋
 
@@ -28,13 +28,6 @@ Parabéns! Você completou os seguintes itens bônus, demonstrando um ótimo con
 Encontramos alguns pontos nos requisitos essenciais que precisam de sua atenção:
 
 #### Tópico: Structure
-> ❌ **Falhou** no teste `has_tag` (Parâmetros: tag: `div`, required_count: 1)
-> - **Detalhes:** Atenção: Foram encontradas 0 de 1 tags `<div>`  necessárias.
-
-
-> - 📚 **Recurso Sugerido:** [Guia completo sobre elementos e tags HTML.](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element)
-
-
 > ❌ **Falhou** no teste `has_tag` (Parâmetros: tag: `form`, required_count: 1)
 > - **Detalhes:** Atenção: Foram encontradas 0 de 1 tags `<form>`  necessárias.
 
@@ -64,36 +57,6 @@ Encontramos alguns pontos nos requisitos essenciais que precisam de sua atençã
 > - 📚 **Recurso Sugerido:** [Tutorial sobre como usar Media Queries para criar layouts responsivos.](https://developer.mozilla.org/pt-BR/docs/Web/CSS/Media_Queries/Using_media_queries)
 
 
-> ❌ **Falhou** no teste `check_media_queries`
-> - **Detalhes:** Atenção: Não foi encontrado o uso de media queries no seu CSS.
-
-
-> - 📚 **Recurso Sugerido:** [Tutorial sobre como usar Media Queries para criar layouts responsivos.](https://developer.mozilla.org/pt-BR/docs/Web/CSS/Media_Queries/Using_media_queries)
-
-
-
-#### Tópico: Style
-> ❌ **Falhou** no teste `has_style` (Parâmetros: style: `font-size`, required_count: 1)
-> - **Detalhes:** Atenção: Encontradas0 de 1 `font-size` regras de estilização determinadas.
-
-
-> - 📚 **Recurso Sugerido:** [Aprenda sobre seletores de CSS e como estilizar elementos.](https://developer.mozilla.org/pt-BR/docs/Learn/CSS/Building_blocks/Selectors)
-
-
-> ❌ **Falhou** no teste `has_style` (Parâmetros: style: `text-align`, required_count: 1)
-> - **Detalhes:** Atenção: Encontradas0 de 1 `text-align` regras de estilização determinadas.
-
-
-> - 📚 **Recurso Sugerido:** [Aprenda sobre seletores de CSS e como estilizar elementos.](https://developer.mozilla.org/pt-BR/docs/Learn/CSS/Building_blocks/Selectors)
-
-
-> ❌ **Falhou** no teste `has_style` (Parâmetros: style: `position`, required_count: 1)
-> - **Detalhes:** Atenção: Encontradas0 de 1 `position` regras de estilização determinadas.
-
-
-> - 📚 **Recurso Sugerido:** [Aprenda sobre seletores de CSS e como estilizar elementos.](https://developer.mozilla.org/pt-BR/docs/Learn/CSS/Building_blocks/Selectors)
-
-
 
 ---
 
@@ -109,7 +72,7 @@ Foram detectadas algumas práticas que resultaram em penalidades. Veja os detalh
 
 
 > ❌ **Falhou** no teste `check_id_selector_over_usage` (Parâmetros: max_allowed: 2)
-> - **Detalhes:** Cuidado! 8  seletores de ID detecados (limite: 2).
+> - **Detalhes:** Cuidado! 15  seletores de ID detecados (limite: 2).
 
 
 > - 📚 **Recurso Sugerido:** [Aprenda sobre seletores de CSS e como estilizar elementos.](https://developer.mozilla.org/pt-BR/docs/Learn/CSS/Building_blocks/Selectors)
@@ -130,15 +93,10 @@ Foram detectadas algumas práticas que resultaram em penalidades. Veja os detalh
 ### 📝 Resumo dos Pontos de Atenção
 | Ação | Tópico | Teste e Parâmetros |
 |:---|:---|:---|
-| Revisar | `structure` | `has_tag`<br><sub>tag: `div`, required_count: 1</sub> |
 | Revisar | `structure` | `has_tag`<br><sub>tag: `form`, required_count: 1</sub> |
 | Revisar | `structure` | `has_tag`<br><sub>tag: `button`, required_count: 1</sub> |
 | Revisar | `link` | `check_internal_links_to_articles`<br><sub></sub> |
 | Revisar | `responsivity` | `uses_relative_units`<br><sub></sub> |
-| Revisar | `responsivity` | `check_media_queries`<br><sub></sub> |
-| Revisar | `style` | `has_style`<br><sub>style: `font-size`, required_count: 1</sub> |
-| Revisar | `style` | `has_style`<br><sub>style: `text-align`, required_count: 1</sub> |
-| Revisar | `style` | `has_style`<br><sub>style: `position`, required_count: 1</sub> |
 | Corrigir (Penalidade) | `html` | `check_bootstrap_usage`<br><sub></sub> |
 | Corrigir (Penalidade) | `html` | `check_id_selector_over_usage`<br><sub>max_allowed: 2</sub> |
 | Corrigir (Penalidade) | `project_structure` | `check_dir_exists`<br><sub>dir_path: `imgs`</sub> |
