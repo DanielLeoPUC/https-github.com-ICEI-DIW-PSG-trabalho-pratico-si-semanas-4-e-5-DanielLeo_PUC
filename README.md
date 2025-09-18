@@ -26,3 +26,13 @@ No trabalho dessa semana vamos evoluir o projeto para que a home-page funcione b
 ![Print da versão responsiva com CSS puro parte 2](images/printmobileDIW.PNG)
 
 (*) Utilize as ferramentas do desenvolvedor do seu navegador para colocar no modo reponsivo, escolha um celular qualquer e recarregue a página antes de tirar o print. 
+
+## Print da versão responsiva com Bootstrap [DEKTOP] (*)
+
+![Print da versão responsiva com CSS DESKTOP](images/Capturarbootsstrap.PNG)
+
+## Print da versão responsiva com Bootstrap [mobile] (*)
+
+![Print da versão responsiva com CSS MOBILE](images/Capturarbootstrapmobile.PNG)
+
+
