@@ -1,5 +1,5 @@
 # Semana 5 de DIW - Relatório de Desempenho.
-> **Nota Final:** **`72.83 / 100`**
+> **Nota Final:** **`76.17 / 100`**
 
 Olá, **DanielLeoPUC**! 👋
 
@@ -30,13 +30,6 @@ Encontramos alguns pontos nos requisitos essenciais que precisam de sua atençã
 #### Tópico: Structure
 > ❌ **Falhou** no teste `has_tag` (Parâmetros: tag: `nav`, required_count: 1)
 > - **Detalhes:** Atenção: Foram encontradas 0 de 1 tags `<nav>`  necessárias.
-
-
-> - 📚 **Recurso Sugerido:** [Guia completo sobre elementos e tags HTML.](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element)
-
-
-> ❌ **Falhou** no teste `has_tag` (Parâmetros: tag: `button`, required_count: 1)
-> - **Detalhes:** Atenção: Foram encontradas 0 de 1 tags `<button>`  necessárias.
 
 
 > - 📚 **Recurso Sugerido:** [Guia completo sobre elementos e tags HTML.](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element)
@@ -87,7 +80,6 @@ Foram detectadas algumas práticas que resultaram em penalidades. Veja os detalh
 | Ação | Tópico | Teste e Parâmetros |
 |:---|:---|:---|
 | Revisar | `structure` | `has_tag`<br><sub>tag: `nav`, required_count: 1</sub> |
-| Revisar | `structure` | `has_tag`<br><sub>tag: `button`, required_count: 1</sub> |
 | Revisar | `link` | `check_internal_links_to_articles`<br><sub></sub> |
 | Revisar | `responsivity` | `uses_relative_units`<br><sub></sub> |
 | Corrigir (Penalidade) | `html` | `check_id_selector_over_usage`<br><sub>max_allowed: 2</sub> |
