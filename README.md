@@ -10,18 +10,20 @@ No trabalho dessa semana vamos evoluir o projeto para que a home-page funcione b
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Daniel Junio Leo
+- Matricula: 900673
+- Proposta de projeto escolhida: Proposta 4-Coleções e Itens.
+- Breve descrição sobre seu projeto:  Fiz um site que mostra e comenta sobre algumas obras de arte do artista Vincent van Gogh.
 
 ## Print da versão responsiva com CSS puro [DESKTOP]
 
-<<  COLOQUE A IMAGEM AQUI >>
+ ![Print da versão responsiva com CSS puro parte 1](images/printDesktop1.1.PNG)
+
+  ![Print da versão responsiva com CSS puro parte 2](images/printversaoDesktop1.2.PNG)
 
 ## Print da versão responsiva com CSS puro [MOBILE] (*)
 
-<<  COLOQUE A IMAGEM AQUI >>
+![Print da versão responsiva com CSS puro parte 2](images/printmobileDIW.PNG)
 
 
 (*) Utilize as ferramentas do desenvolvedor do seu navegador para colocar no modo reponsivo, escolha um celular qualquer e recarregue a página antes de tirar o print. 
