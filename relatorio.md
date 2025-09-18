@@ -1,5 +1,5 @@
 # Semana 5 de DIW - Relatório de Desempenho.
-> **Nota Final:** **`64.93 / 100`**
+> **Nota Final:** **`44.26 / 100`**
 
 Olá, **DanielLeoPUC**! 👋
 
@@ -17,10 +17,6 @@ Parabéns! Você completou os seguintes itens bônus, demonstrando um ótimo con
 
 
 #### Tópico: Head detail
-> ✅ **Passou** no teste `check_head_details` (Parâmetros: detail_tag: `title`)
-> - **Detalhes:** Parabéns! A tag de detalhe `<title>` foi encontrada na seção `<head>`.
-
-
 > ✅ **Passou** no teste `check_head_details` (Parâmetros: detail_tag: `meta`)
 > - **Detalhes:** Parabéns! A tag de detalhe `<meta>` foi encontrada na seção `<head>`.
 
@@ -105,6 +101,13 @@ Encontramos alguns pontos nos requisitos essenciais que precisam de sua atençã
 Foram detectadas algumas práticas que resultaram em penalidades. Veja os detalhes abaixo para entender como corrigi-las:
 
 #### Tópico: Html
+> ❌ **Falhou** no teste `check_bootstrap_usage`
+> - **Detalhes:** Cuidado! Você está usando bootstrap no seu CSS
+
+
+> - 📚 **Recurso Sugerido:** [Documentação do Bootstrap para referência.](https://getbootstrap.com/docs/5.1/getting-started/introduction/)
+
+
 > ❌ **Falhou** no teste `check_id_selector_over_usage` (Parâmetros: max_allowed: 2)
 > - **Detalhes:** Cuidado! 8  seletores de ID detecados (limite: 2).
 
@@ -136,6 +139,7 @@ Foram detectadas algumas práticas que resultaram em penalidades. Veja os detalh
 | Revisar | `style` | `has_style`<br><sub>style: `font-size`, required_count: 1</sub> |
 | Revisar | `style` | `has_style`<br><sub>style: `text-align`, required_count: 1</sub> |
 | Revisar | `style` | `has_style`<br><sub>style: `position`, required_count: 1</sub> |
+| Corrigir (Penalidade) | `html` | `check_bootstrap_usage`<br><sub></sub> |
 | Corrigir (Penalidade) | `html` | `check_id_selector_over_usage`<br><sub>max_allowed: 2</sub> |
 | Corrigir (Penalidade) | `project_structure` | `check_dir_exists`<br><sub>dir_path: `imgs`</sub> |
 
