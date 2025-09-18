@@ -1,5 +1,5 @@
 # Semana 5 de DIW - Relatório de Desempenho.
-> **Nota Final:** **`62.83 / 100`**
+> **Nota Final:** **`66.17 / 100`**
 
 Olá, **DanielLeoPUC**! 👋
 
@@ -28,13 +28,6 @@ Parabéns! Você completou os seguintes itens bônus, demonstrando um ótimo con
 Encontramos alguns pontos nos requisitos essenciais que precisam de sua atenção:
 
 #### Tópico: Structure
-> ❌ **Falhou** no teste `has_tag` (Parâmetros: tag: `form`, required_count: 1)
-> - **Detalhes:** Atenção: Foram encontradas 0 de 1 tags `<form>`  necessárias.
-
-
-> - 📚 **Recurso Sugerido:** [Guia completo sobre elementos e tags HTML.](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element)
-
-
 > ❌ **Falhou** no teste `has_tag` (Parâmetros: tag: `button`, required_count: 1)
 > - **Detalhes:** Atenção: Foram encontradas 0 de 1 tags `<button>`  necessárias.
 
@@ -93,7 +86,6 @@ Foram detectadas algumas práticas que resultaram em penalidades. Veja os detalh
 ### 📝 Resumo dos Pontos de Atenção
 | Ação | Tópico | Teste e Parâmetros |
 |:---|:---|:---|
-| Revisar | `structure` | `has_tag`<br><sub>tag: `form`, required_count: 1</sub> |
 | Revisar | `structure` | `has_tag`<br><sub>tag: `button`, required_count: 1</sub> |
 | Revisar | `link` | `check_internal_links_to_articles`<br><sub></sub> |
 | Revisar | `responsivity` | `uses_relative_units`<br><sub></sub> |
