@@ -6,12 +6,11 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(113, 143, 243);
     }
-
+ /* header inicio */
 header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    
 
 }
 .menu {
@@ -37,50 +36,10 @@ header input:hover, li:hover {
      border: 1px solid white;
 }
 
-aside {
-    background-color:rgba(255, 255, 255, 0.377);;
-    border: 1px solid777;
-    border-radius: 13px;
-    grid-column: 4/5;
-    grid-row: 1/5 ;
-    padding: 8px;
+ /* header fim */
 
-}
-aside:hover {
-     background-color:rgba(255, 255, 255, 0.575);;
-    
-    
-}
-
-.Artigo{
-    background-color:rgba(255, 255, 255, 0.377);
-}
-.Artigo:hover {
-     background-color:rgba(255, 255, 255, 0.575);;
-    
-    
-}
-
-.card {
-   background-color: rgba(255, 255, 255, 0.377);
-}
-.card:hover {
-     background-color:rgba(255, 255, 255, 0.575);;
-    
-    
-}
-
-footer {
-    background-color:rgba(255, 255, 255, 0.377);;
-    padding: 2px;
-}
-footer:hover {
-     background-color:rgba(255, 255, 255, 0.575);;
-    
-    
-}
-
-li.active {
+    /* main inicio */
+    li.active {
     color: rgb(17, 141, 163);
 }
  .artigos {
@@ -105,7 +64,7 @@ li.active {
  
  #card3 {
      grid-column: 1/4;
-       grid-row:4;
+       grid-row:4; 
  }
 
 .artigos article {
@@ -128,7 +87,56 @@ li.active {
     padding: 8px;
    
 }
+
+.Artigo{
+    background-color:rgba(255, 255, 255, 0.377);
+}
+.Artigo:hover {
+     background-color:rgba(255, 255, 255, 0.575);;
+      
+}
+
+.card {
+   background-color: rgba(255, 255, 255, 0.377);
+}
+.card:hover {
+     background-color:rgba(255, 255, 255, 0.575);;   
+}
+
+    /* main fim */
+
+  /* aside inicio */
+aside {
+    background-color:rgba(255, 255, 255, 0.377);;
+    border: 1px solid777;
+    border-radius: 13px;
+    grid-column: 4/5;
+    grid-row: 1/5 ;
+    padding: 8px;
+
+}
+aside:hover {
+     background-color:rgba(255, 255, 255, 0.575);;
+}
+
 aside  a, li{
     color: black;
 
 }
+  /* aside fim */
+
+/* footer inicio */
+
+footer {
+    background-color:rgba(255, 255, 255, 0.377);;
+    padding: 2px;
+}
+footer:hover {
+     background-color:rgba(255, 255, 255, 0.575);;     
+}
+
+ /* footer fim */
+
+
+
+
