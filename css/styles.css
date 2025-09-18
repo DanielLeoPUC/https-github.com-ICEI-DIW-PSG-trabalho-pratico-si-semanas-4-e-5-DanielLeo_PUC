@@ -127,6 +127,9 @@ aside  a, li{
     color: black;
 
 }
+aside form {
+    align-content: center ;
+}
   /* aside fim */
 
 /* footer inicio */
@@ -178,7 +181,7 @@ footer:hover {
       overflow: hidden;
   }
 
-  .menu li {
+  .menuli {
     display: block;
     width: 100%;
     margin-left: 0px;
